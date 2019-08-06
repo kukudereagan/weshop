@@ -10,6 +10,7 @@ import tech.wetech.weshop.common.annotations.WeshopSpringCloudApplication;
 public class WeshopAdminApplication {
 
     public static void main(String[] args) {
+        System.out.println(111);
         SpringApplication.run(WeshopAdminApplication.class, args);
     }
 
